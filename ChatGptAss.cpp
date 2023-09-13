@@ -1,14 +1,9 @@
 /*Assignment: Student Record Management using Linked Lists
 Objective:
-Create a simple Student Record Management System that allows you to add, delete, and display student records using singly linked lists. Additionally, save the student records to a file and load them when the program starts.
+Create a simple Student Record Management System that allows you to add, delete, and display student records using singly linked lists. 
+Additionally, save the student records to a file and load them when the program starts.
 
-Requirements:
 Data Structure: Use a singly linked list to store student records. Each node should contain the following fields:
-
-Student ID (integer)
-Name (string)
-GPA (float)
-Features: Your program should offer the following features:
 
 Add a new student record.
 Delete a student record by Student ID.
@@ -19,21 +14,8 @@ File I/O: Use file input/output operations to save and load student records.
 
 When the program starts, it should load student records from a file (if it exists).
 Whenever a new record is added or deleted, the file should be updated accordingly.
-Functions to Implement:
-void addStudent(Node*& head, int id, const string& name, float gpa)
-void deleteStudent(Node*& head, int id)
-void displayStudents(const Node* head)
-void saveToFile(const Node* head, const string& filename)
-void loadFromFile(Node*& head, const string& filename)
-Bonus:
-Implement a function to sort the student records by GPA.
-Implement a search feature to find a student by ID or name.
-Deliverables:
-Source code files
-A text file used for storing student records
-Documentation explaining your code and how to run it */
-//  float gpa = 3.9876;
-// cout << "GPA: " << fixed << setprecision(2) << gpa << endl;
+*/
+
 
 #include <iostream>
 #include <iomanip>
